@@ -1,0 +1,80 @@
+.footer{ 
+    margin-right: 21px;
+    margin-bottom: 50px;
+    .footer-section{
+        .footer-panel{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 20px;
+            gap: 430px;
+            .footer-panel-1{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+                gap: 10px;
+                
+                // display: flex;
+                // flex-direction: column;
+                // gap: 10px;
+                // align-content: center;
+                h1{
+                    text-align: center;
+                }
+                li{
+                    text-align: center;
+                    font-size: 15px;
+                    a{
+                        transition: 0.8s ease all;
+                        color: rgb(146, 146, 146);
+                    }
+                    a:hover{
+                        color: rgb(236, 236, 236);
+                        
+                    }
+                }
+            }
+            .footer-panel-2{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+                gap: 10px;
+                h1{
+                    text-align: center;
+                }
+                li{
+                    text-align: center;
+                    font-size: 15px;
+                    a{
+                        transition: 0.8s ease all;
+                        color: rgb(146, 146, 146);
+                    }
+                    a:hover{
+                        color: rgb(236, 236, 236);
+                        
+                    }
+                }
+            }
+            .footer-panel-3{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+                gap: 10px;
+                h1{
+                    text-align: center;
+                }
+                li{
+                    text-align: center;
+                    font-size: 15px;
+                    a{
+                        transition: 0.8s ease all;
+                        color: rgb(146, 146, 146);
+                    }
+                    a:hover{
+                        color: rgb(236, 236, 236);
+                        
+                    }
+                }
+            }
+        }
+    }
+    .footer-nevidn{
+        color: rgb(255, 255, 255);
+    }
+}
